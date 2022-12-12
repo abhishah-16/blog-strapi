@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "services_pages",
+  "info": {
+    "singularName": "services-page",
+    "pluralName": "services-pages",
+    "displayName": "servicesPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "pageInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.page-info"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_layout_hero_sections",
+  "info": {
+    "displayName": "heroSection",
+    "icon": "hospital-symbol"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "callToAction": {
+      "type": "string"
+    },
+    "buttons": {
+      "displayName": "buttons",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.buttons"
+    }
+  }
+}

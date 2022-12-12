@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_layout_page_infos",
+  "info": {
+    "displayName": "pageInfo",
+    "icon": "ellipsis-v"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "seoInformation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo-information"
+    }
+  }
+}
